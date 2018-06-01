@@ -37,11 +37,7 @@ end
 
 
 def play(board)
-  win = 'no'
-  while win == 'no'
+  counter = 0 
+  while counter < 9 
     turn(board)
-    if board == ["X", "X", "X", " ", " ", " ", " ", " ", " "] || board == [" ", " ", " ", "X", "X", "X", " ", " ", " "] || board == [" ", " ", " ", " ", " ", " ", "X", "X", "X"] || board == ["X", " ", " ", "X", " ", " ", "X", " ", " "] || board == ["X", " ", " ", " ", "X", " ", " ", " ", "X"] || board == [" ", "X", " ", " ", "X", " ", " ", "X", " "] || board == [" ", " ", "X", " ", " ", "X", " ", " ", "X"] || board == [" ", " ", "X", " ", "X", " ", "X", " ", " "]
-        win = 'yes'
-      end
-  end
 end 
