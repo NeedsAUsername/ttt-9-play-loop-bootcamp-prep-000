@@ -37,8 +37,10 @@ end
 
 
 def play(board)
-  loop do 
-    turn 
-    
+  win = 'no'
+  while win == 'no'
+  
+  
+
   
 end 
