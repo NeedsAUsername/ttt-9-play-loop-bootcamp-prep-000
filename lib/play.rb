@@ -39,6 +39,8 @@ end
 def play(board)
   win = 'no'
   while win == 'no'
+    turn
+    if board == []
   
   
 
