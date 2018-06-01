@@ -37,6 +37,8 @@ end
 
 
 def play(board)
-  loop 
+  loop do 
+    turn 
+    
   
 end 
